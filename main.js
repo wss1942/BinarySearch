@@ -44,3 +44,8 @@ var arr123 = createArray();
 arr123 = arr123.sort((a, b) => a - b);
     console.log(arr123);
 console.info(rank_(arr123, 4));
+
+
+// 牛顿迭代法
+var niu = niudun(2);
+console.log('根号2',niu);
